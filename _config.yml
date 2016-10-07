@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://panossakkos.github.io"
+url: "https://www.enkirche.fr"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -12,11 +12,11 @@ url: "https://panossakkos.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /personal-jekyll-theme
+baseurl: /
 
 # Google tracking id
 
-google-tracking-id: ""
+google-tracking-id: "<UA-316171-11>"
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
@@ -28,11 +28,11 @@ force-https: True
 # HTML Head #
 #############
 
-lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+lang: "fr"
+author: "Emmanuel Enkirche"
+title: "{ Emmanuel Enkirche }"
+description: "Blog et website de Emmanuel Enkirche. Quelques notes sur ma recherche professionnelle en générale, ma formation TSMEL en particulier. Les opinions exprimées sont les miennes."
+keywords: "enkirche, emmanuel, logisticien, CV"
 favicon: "/img/favicon.ico"
 
 ################
@@ -92,17 +92,17 @@ post-preview-words: 96
 paginate: 5
 
 email-share: True
-fb-share: True
-twitter-share: True
+fb-share: False
+twitter-share: False
 linkedin-share: True
-reddit-share: True
+reddit-share: False
 google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
 
-disqus-shortname: "panossakkos"
+disqus-shortname: "manubarnum"
 
 syntax-highlight: True
 
@@ -111,12 +111,12 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/career/spidertocat.png"
+    date: "Mars 2013 - Aujourd'hui"
+    description: "Employé logistique pour la SAS Cocagne"
+  - image: "/img/career/baracktocat.jpg"
+    date: "Janvier 2000 - Mars 2013"
+    description: "Intérimaire"
 
 # First image of the Timeline
 
@@ -126,7 +126,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "contact@enkirche.fr"
 
 ################
 # Author Blurb #
@@ -136,7 +136,7 @@ email: "your@email.here"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb: "De nature entreprenante, je souhaite évoluer vers un poste avec plus d’enjeux, aussi j’ai décidé de suivre une formation de technicien supérieur en méthode et exploitation logistique (TSMEL) du vendredi 30 septembre jusqu’au 30 juin 2017 au centre AFTRAL de St Etienne du Rouvray. Mes capacités d’analyse et de travail en autonomie seront des atouts en vue de la réussite de ce projet."
 author_blurb_image: "/img/author.png"
 
 ##################
@@ -144,14 +144,12 @@ author_blurb_image: "/img/author.png"
 ##################
 
 social:
-  - title: "facebook"
-    url: "https://facebook.com/"
-  - title: "twitter"
-    url: "https://twitter.com/"
+  - title: "linkedin"
+    url: "https://linkedin.com/in/emmanuelenkirche"
+  - title: "google-plus"
+    url: "https://plus.google.com/107898723162758678646"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+    url: "https://github.com/manubarnum"
   - title: "rss"
     url: "/feed.xml"
 
@@ -165,9 +163,9 @@ social:
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
-keybase-in-social: True
-keybase-in-footer: True
+keybase-username: manubarnum
+keybase-in-social: False
+keybase-in-footer: False
 
 ################################################################################
 
