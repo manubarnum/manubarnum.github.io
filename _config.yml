@@ -28,7 +28,7 @@ force-https: True
 # HTML Head #
 #############
 
-lang: "fr"
+lang: "en"
 author: "Emmanuel Enkirche"
 title: "{ Emmanuel Enkirche }"
 description: "Blog et website de Emmanuel Enkirche. Quelques notes sur ma recherche professionnelle en générale, ma formation TSMEL en particulier. Les opinions exprimées sont les miennes."
