@@ -111,8 +111,11 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/timeline/aftral.png"
+    date: "Septembre 2016- en cours"
+    description: "Etudiant en logistique à l'AFTRAL"
   - image: "/img/timeline/cocagne.png"
-    date: "Mars 2013 - Aujourd'hui"
+    date: "Mars 2013 - en pause"
     description: "Employé logistique pour la SAS Cocagne"
   - image: "/img/timeline/sika.png"
     date: "Janvier 2012 - Octobre 2012"
