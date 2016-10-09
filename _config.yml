@@ -144,7 +144,7 @@ events:
   - image: "/img/timeline/superu.png"
     date: "2000"
     description: "Employé commercial pour Super U"  
-  - image: "/img/timeline/grisel.jpg"
+  - image: "/img/timeline/grisel.png"
     date: "Septembre 1995 - Décembre 1999"
     description: "Chauffeur de bus"
 
