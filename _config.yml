@@ -28,20 +28,20 @@ force-https: True
 # HTML Head #
 #############
 
-lang: "en"
+lang: "fr"
 author: "Emmanuel Enkirche"
 title: "{ Emmanuel Enkirche }"
 description: "Blog et website de Emmanuel Enkirche. Quelques notes sur ma recherche professionnelle en générale, ma formation TSMEL en particulier. Les opinions exprimées sont les miennes."
 keywords: "enkirche, emmanuel, logisticien, CV"
-favicon: "/img/favicon.ico"
+favicon: "/img/point-favicon.ico"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/point-black.ico"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/fonddecran.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -55,10 +55,10 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Bienvenue sur mon CV en ligne!"
+  - text: "Quelques notes sur ma recherche professionnelle."
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/portrait.png"
 
 ##############################
 # Color the browser elements #
@@ -74,12 +74,12 @@ web-app-mode: True
 
 # Icons for Web App mode
 
-icon-36p: "/img/web-app/icon-36p.png"
-icon-48p: "/img/web-app/icon-48p.png"
-icon-72p: "/img/web-app/icon-72p.png"
-icon-96p: "/img/web-app/icon-96p.png"
-icon-144p: "/img/web-app/icon-144p.png"
-icon-192p: "/img/web-app/icon-192p.png"
+icon-36p: "/img/web-app/point-36p.png"
+icon-48p: "/img/web-app/point-48p.png"
+icon-72p: "/img/web-app/point-72p.png"
+icon-96p: "/img/web-app/point-96p.png"
+icon-144p: "/img/web-app/point-144p.png"
+icon-192p: "/img/web-app/point-192p.png"
 
 ########
 # Blog #
@@ -111,22 +111,52 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/career/spidertocat.png"
+  - image: "/img/timeline/cocagne.png"
     date: "Mars 2013 - Aujourd'hui"
     description: "Employé logistique pour la SAS Cocagne"
-  - image: "/img/career/baracktocat.jpg"
-    date: "Janvier 2000 - Mars 2013"
-    description: "Intérimaire"
+  - image: "/img/timeline/sika.png"
+    date: "Janvier 2012 - Octobre 2012"
+    description: "Opérateur cariste pour la société SIKA "
+  - image: "/img/timeline/imerys.png"
+    date: "Novembre - Decembre 2011"
+    description: "Opérateur cariste pour la société Imerys"
+  - image: "/img/timeline/autoliv.png"
+    date: "Mars 2010 - Octobre 2011"
+    description: "Approvisonneur Cariste pour la société Autoliv"
+  - image: "/img/timeline/cocagne.png"
+    date: "Avril - Juillet 2009"
+    description: "Approvisonneur Cariste pour la Paulstra"
+  - image: "/img/timeline/autoliv.png"
+    date: "Janvier 2007 - Juillet 2008"
+    description: "Approvisonneur Cariste pour la société Autoliv"
+  - image: "/img/timeline/afpa.png"
+    date: "Juin 2005 - Juin 2006"
+    description: "Assistant en Bureatique et Informatique pour l'AFPA"
+  - image: "/img/timeline/cesi.png"
+    date: "Septembre 2004 - Juin 2005"
+    description: "Etudiant Analyse Programmation au CESI"  
+  - image: "/img/timeline/dumonchel.png"
+    date: "Février - Avril 2004"
+    description: "Chauffeur VL pour Dumonchel"
+  - image: "/img/timeline/autoliv.png"
+    date: "Janvier 2001 - Juillet 2003"
+    description: "Opérateur de production pour la société Autoliv"
+  - image: "/img/timeline/superu.png"
+    date: "2000"
+    description: "Employé commercial pour la société Super U"  
+  - image: "/img/timeline/grisel.jpg"
+    date: "Septembre 1995 - Décembre 1999"
+    description: "Chauffeur de bus"
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/defaut.png"
 
 ###########
 # Contact #
 ###########
 
-email: "contact@enkirche.fr"
+email: "emmanuel@enkirche.fr"
 
 ################
 # Author Blurb #
@@ -137,7 +167,7 @@ email: "contact@enkirche.fr"
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb: ""
-author_blurb_image: "/img/author.png"
+author_blurb_image: "/img/portrait.png"
 
 ##################
 # Social Buttons #
