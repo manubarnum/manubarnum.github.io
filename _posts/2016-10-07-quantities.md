@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: Quantities!
 category: Anglais
-tags: [ 'number', 'clock', 'date' ]
+tags: [ 'number' 'clock' 'date' ]
 ---
 
 # Quantities
