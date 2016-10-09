@@ -6,13 +6,11 @@ category: Anglais
 tags: [ 'number', 'clock', 'date' ]
 ---
 
-### Quantities
+### Number
 
-* Number
+### Clock
 
-* Clock
-
-* Date
+### Date
 
 
 Any contributions, feedback or issues to the <a href="https://github.com/PanosSakkos/personal-jekyll-theme" target="\_blank">repo</a> are more than welcome!
