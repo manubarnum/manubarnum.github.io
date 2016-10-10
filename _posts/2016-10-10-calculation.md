@@ -13,16 +13,14 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 ### Foreign currencies, (devises in french)
 
 * £ : pounds /pence  
+ * £104.80 = one hundred four pounds (pounds), eighty (cents)  
 * $ : dollar / cents  
+ *  $4,607.70 = four thousand, sic hundred seven (dollars), seventy (cents)
 * € : euro /cents
-
-
-* £104.80 = one hundred four pounds (pounds), eighty (cents)  
-* $4,607.70 = four thousand, sic hundred seven (dollars), seventy (cents)  
-* €2.60 = two (euros) sixty (cents)
+ * €2.60 = two (euros) sixty (cents) 
+ 
 
 ### Calculations
-
 * plus... equals : 2+4=  
 * minus...equals : 4-2=  
 * times...equals : 4*4=  
@@ -92,4 +90,5 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 -yes i forgot to confirm the order ABC on time  
 -please can you confirm your order  
 -yes of course, thank's
+
 
