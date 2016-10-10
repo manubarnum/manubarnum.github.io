@@ -6,11 +6,11 @@ category: English
 tags: [ 'currencies', 'calculation', 'role plays' ]
 ---
 
-* What have we study last friday?
+* What have we study last friday?  
 * Today we'll going to speak about money
 
-### Foreign currencies, (devises in french)
 
+### Foreign currencies, (devises in french)
 * £ : pounds /pence  
 * $ : dollar / cents  
 * € : euro /cents  
@@ -21,7 +21,6 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 
 
 ### Calculations
-
 * plus... equals : 2+4=  
 * minus...equals : 4-2=  
 * times...equals : 4*4=  
