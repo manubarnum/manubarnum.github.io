@@ -13,11 +13,12 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 ### Foreign currencies, (devises in french)
 * £ : pounds /pence  
 * $ : dollar / cents  
-* € : euro /cents  
+* € : euro /cents
+
 
 * £104.80 = one hundred four pounds (pounds), eighty (cents)  
 * $4,607.70 = four thousand, sic hundred seven (dollars), seventy (cents)  
-* €2.60 = two (euros) sixty (cents) 
+* €2.60 = two (euros) sixty (cents)
 
 
 ### Calculations
@@ -37,7 +38,7 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 >audio exercices : number, times...
 
 ### Role Plays
-1.Receive a truck driver  
+1.Receive a truck driver
 * Entrance  
 -Hello sir  
 -hello it's for delivery  
@@ -56,23 +57,26 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 -please sign here and go to quay 7 for unloading   
 -thank's  
 
+
 (-I fit in a time slot at 9 o'clock, but i'm late because an accident on the road   
 -i'm sorry you have to wait, you have a delay of 2 hours  
 -please i have another appointment in another society today i hope you'll find a solution  
 -i call my manager for ask him a solution, please wait) [...]   
 -you can unload at quay 7, go straight on, turn right, it's the next to your right [...]  
 
+
 * Quay  
 -the quay is busy, is there any quay available, which quay is available
 
-2.Storage: the forklift operator is on phone with his manager  
+2.Storage: the forklift operator is on phone with his manager
 -hi chief I received some goods, where can I store them?  
 -hi, what kinf of goods, how many pallets?  
 -I received three pallets of books, there are thirty packages of books  
 -ok, you can store them in aisle four [...]  
 -Sorry to disturb you, there's no place, no roon in aisle 4, in any level  
 
-3.Shipping  
+
+3.Shipping
 -hi, have you prepare a shipment today, what is the date of shipping?  
 -hi, the date is the 02/02  
 -are the goods ready?  
@@ -81,6 +85,7 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 -two thousand five hundred bags  
 -in what destination?  
 -New York
+
 
 4.Order confirmation
 -Hi, would like to speak to Nelly, please  
