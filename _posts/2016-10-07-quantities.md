@@ -2,7 +2,7 @@
 layout: post
 section-type: post
 title: Quantities
-category: Anglais
+category: English
 tags: [ 'number', 'clock', 'date' ]
 ---
 
