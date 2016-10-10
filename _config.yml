@@ -149,7 +149,10 @@ events:
     description: "Employé commercial pour Super U"  
   - image: "/img/timeline/grisel.png"
     date: "Septembre 1995 - Décembre 1999"
-    description: "Chauffeur de bus"
+    description: "Chauffeur de bus pour Grisel"
+  - image: "/img/timeline/23bima.png"
+    date: "Avril 1993 - Mars 1995"
+    description: "Volontaire Service Long Outre-Mer au Sénégal"
 
 # First image of the Timeline
 
