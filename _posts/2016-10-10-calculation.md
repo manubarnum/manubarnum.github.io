@@ -1,103 +1,99 @@
 ---
 layout: post
 section-type: post
-title: Initial setup
-category: tech
-tags: [ 'tutorial' ]
+title: Calculation
+category: English
+tags: [ 'currencies', 'calculation', 'role plays' ]
 ---
 
-All features of { Personal } are controlled by setting values to variables that are defined in the
-\_config.yml file. Let's start with the initial variables that you have to set before
-serving your { Personal } website for the first time.
+* What have we study last friday?
 
-### Essential variables
+* Today we'll going to speak about money
 
-<pre><code data-trim class="yaml">
-# NB! Set your site's url, otherwise stuff will break :)
+### Foreign currencies, (devises in french)
 
-url: "https://panossakkos.github.io"
+* £ : pounds /pence
+* $ : dollar / cents
+* € : euro /cents
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (https://yourusername.github.io/repository-name)
-# and NOT your user repository (https://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-#
-# NB! Without this *nothing* will work, because it's used in every path :)
+* £104.80 = one hundred four pounds (pounds), eighty (cents)
+* $4,607.70 = four thousand, sic hundred seven (dollars), seventy (cents)
+* €2.60 = two (euros) sixty (cents) 
 
-baseurl: /personal-jekyll-theme
-</code></pre>
 
-The url and baseurl variables are essential, because they are used *everywhere* where an anchor is defined!
+### Calculations
 
-### Coloring
+* plus... equals : 2+4=
+* minus...equals : 4-2=
+* times...equals : 4*4=
+* divided by...equals : 8/2=
 
-You can define the colors that you want in your { Personal } website by setting
-the following variable sin the /_sass/_variables.scss file:
 
-<pre><code data-trim class="scss">
-// Main color
-$primary-color: #000;
+* 3% three per cent, a percentage 
+* 1/4 : a quarter  
+* 3/4 : three quarters  
+* 1/2 : half
+* 1/3 : a third
 
-// Anchor color
-$secondary-color: #00cdff;
 
-// Font color
-$font-color: #fff;
-</code></pre>
+>audio exercices : number, times...
 
-### HTTPS
+### Role Plays
+1.Receive a truck driver
+* Entrance  
+-Hello sir  
+-hello it's for delivery  
+-ok, do you have documents, please?  
+-yes, here they are, take them  
+-please go to reception to give your documents  
+-ok, thank's
 
-By default { Personal } will enforce https by javascript redirection.
-HTTPS is important because it encrypts the data sent between the client and the server.
-If you are hosting on GitHub Pages then it will just work, because your website
-will be piggybacking GitHub's certificate.
-If you are hosting your website in a server that doesn't have a certificate and
-you don't want to issue one, then you can disable this feature by setting the following
-variable to False:
 
-<pre><code data-trim class="yaml">
-force-https: True
-</code></pre>
+* Reception  
+-hi, I come for a delivery  
+-hello sir, what's your company and  your time slot, please  
+-my company is ..., i have an appointment at 9  
+ -hello, have you got your transport documents?  
+-yes, here they are, take them, where is the unloading quay, please?  
+-please sign here and go to quay 7 for unloading   
+-thank's  
 
-### HTML Head
+(-I fit in a time slot at 9 o'clock, but i'm late because an accident on the road   
+-i'm sorry you have to wait, you have a delay of 2 hours  
+-please i have another appointment in another society today i hope you'll find a solution  
+-i call my manager for ask him a solution, please wait)
+ [...]   
+-you can unload at quay 7, go straight on, turn right, it's the next to your right
+[...]
 
-<pre><code data-trim class="yaml">
-lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
-favicon: "/img/favicon.ico"
-404-img: "/img/labtocat.png"
-</code></pre>
+* Quay  
+-the quay is busy, is there any quay available, which quay is available
 
-The values that you set, will be placed in the head section of every generated HTML page.
+2.Storage: the forklift operator is on phone with his manager
+-hi chief I received some goods, where can I store them?  
+-hi, what kinf of goods, how many pallets?
+-I received three pallets of books, there are thirty packages of books  
+-ok, you can store them in aisle four  
+[...]  
+-Sorry to disturb you, there's no place, no roon in aisle 4, in any level
 
-### Google Analytics
+3.Shipping
+-hi, have you prepare a shipment today, what is the date of shipping?  
+-hi, the date is the 02/02  
+-are the goods ready?  
+-yes, the packages are filmed and in the picking zone  
+-how many goods?  
+-two thousand five hundred bags  
+-in what destination?  
+-New York
 
-The Google tracking code will be placed in every generated page.
-If you don't want Google analytics tracking your website's traffic, set the google-tracking-id to an empty string.
-
-<pre><code data-trim class="yaml">
-google-tracking-id: "UA-35880426-4"
-</code></pre>
-
-### Serving { Personal }
-
-Install the required dependencies:
-
-<pre><code data-trim class="bash">
-gem install jekyll jekyll-paginate jemoji html-proofer
-</code></pre>
-
-Serve the jekyll website:
-
-<pre><code data-trim class="bash">
-./scripts/serve-production
-</code></pre>
-
-That's it!
-
-Visit [http://127.0.0.1:4000](http://127.0.0.1:4000) and you are ready to start hacking around your { Personal } website!
-
-<small>Many thanks to <a href="https://github.com/joariasl" target="\_blank">@joariasl</a> for the language support! </small>
+4.Order confirmation
+-Hi, would like to speak to Nelly, please  
+-hi what can i do for you?  
+-i have no order confirmation  
+-what is the reference please  
+-the date of order is 01/01  
+-yes i forgot to confirm the order ABC on time  
+-please can you confirm your order  
+-yes of course, thank's
+-
