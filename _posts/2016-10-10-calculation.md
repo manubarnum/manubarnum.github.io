@@ -11,6 +11,7 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 
 
 ### Foreign currencies, (devises in french)
+
 * £ : pounds /pence  
 * $ : dollar / cents  
 * € : euro /cents
@@ -22,6 +23,7 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 
 
 ### Calculations
+
 * plus... equals : 2+4=  
 * minus...equals : 4-2=  
 * times...equals : 4*4=  
@@ -41,6 +43,7 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 1. Receive a truck driver
 
 * Entrance
+
 -Hello sir  
 -hello it's for delivery  
 -ok, do you have documents, please?  
@@ -50,6 +53,7 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 
 
 * Reception
+
 -hi, I come for a delivery  
 -hello sir, what's your company and  your time slot, please  
 -my company is ..., i have an appointment at 9  
@@ -67,6 +71,7 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 
 
 * Quay
+
 -the quay is busy, is there any quay available, which quay is available
 
 2. Storage: the forklift operator is on phone with his manager
