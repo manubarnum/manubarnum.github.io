@@ -173,7 +173,7 @@ email: "emmanuel@enkirche.fr"
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb: ""
-author_blurb_image: "/img/portrait.png"
+author_blurb_image: ""
 
 ##################
 # Social Buttons #
