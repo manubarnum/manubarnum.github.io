@@ -13,4 +13,3 @@ tags: [ 'number', 'clock', 'date' ]
 ### Date
 
 
-Any contributions, feedback or issues to the <a href="https://github.com/PanosSakkos/personal-jekyll-theme" target="\_blank">repo</a> are more than welcome!
