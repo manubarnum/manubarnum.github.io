@@ -39,6 +39,7 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 
 ### Role Plays
 1.Receive a truck driver
+
 * Entrance  
 -Hello sir  
 -hello it's for delivery  
@@ -69,6 +70,7 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 -the quay is busy, is there any quay available, which quay is available
 
 2.Storage: the forklift operator is on phone with his manager
+
 -hi chief I received some goods, where can I store them?  
 -hi, what kinf of goods, how many pallets?  
 -I received three pallets of books, there are thirty packages of books  
@@ -77,6 +79,7 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 
 
 3.Shipping
+
 -hi, have you prepare a shipment today, what is the date of shipping?  
 -hi, the date is the 02/02  
 -are the goods ready?  
@@ -88,6 +91,7 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 
 
 4.Order confirmation
+
 -Hi, would like to speak to Nelly, please  
 -hi what can i do for you?  
 -i have no order confirmation  
