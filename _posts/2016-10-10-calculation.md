@@ -40,9 +40,9 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 >audio exercices : number, times...
 
 ### Role Plays
-1.  Receive a truck driver
+*  Receive a truck driver
 
-* Entrance
+ * Entrance
 
 -Hello sir  
 -hello it's for delivery  
@@ -52,7 +52,7 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 -ok, thank's
 
 
-* Reception
+ * Reception
 
 -hi, I come for a delivery  
 -hello sir, what's your company and  your time slot, please  
@@ -70,11 +70,11 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 -you can unload at quay 7, go straight on, turn right, it's the next to your right [...]  
 
 
-* Quay
+ * Quay
 
 -the quay is busy, is there any quay available, which quay is available
 
-2.  Storage: the forklift operator is on phone with his manager
+*  Storage: the forklift operator is on phone with his manager
 
 -hi chief I received some goods, where can I store them?  
 -hi, what kinf of goods, how many pallets?  
@@ -83,7 +83,7 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 -Sorry to disturb you, there's no place, no roon in aisle 4, in any level  
 
 
-3.  Shipping
+*  Shipping
 
 -hi, have you prepare a shipment today, what is the date of shipping?  
 -hi, the date is the 02/02  
@@ -95,7 +95,7 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 -New York
 
 
-4.  Order confirmation
+*  Order confirmation
 
 -Hi, would like to speak to Nelly, please  
 -hi what can i do for you?  
