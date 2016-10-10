@@ -7,39 +7,38 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 ---
 
 * What have we study last friday?
-
 * Today we'll going to speak about money
 
 ### Foreign currencies, (devises in french)
 
-* £ : pounds /pence
-* $ : dollar / cents
-* € : euro /cents
+* £ : pounds /pence  
+* $ : dollar / cents  
+* € : euro /cents  
 
-* £104.80 = one hundred four pounds (pounds), eighty (cents)
-* $4,607.70 = four thousand, sic hundred seven (dollars), seventy (cents)
+* £104.80 = one hundred four pounds (pounds), eighty (cents)  
+* $4,607.70 = four thousand, sic hundred seven (dollars), seventy (cents)  
 * €2.60 = two (euros) sixty (cents) 
 
 
 ### Calculations
 
-* plus... equals : 2+4=
-* minus...equals : 4-2=
-* times...equals : 4*4=
+* plus... equals : 2+4=  
+* minus...equals : 4-2=  
+* times...equals : 4*4=  
 * divided by...equals : 8/2=
 
 
-* 3% three per cent, a percentage 
+* 3% three per cent, a percentage  
 * 1/4 : a quarter  
 * 3/4 : three quarters  
-* 1/2 : half
+* 1/2 : half  
 * 1/3 : a third
 
 
 >audio exercices : number, times...
 
 ### Role Plays
-1.Receive a truck driver
+1.Receive a truck driver  
 * Entrance  
 -Hello sir  
 -hello it's for delivery  
@@ -61,23 +60,20 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 (-I fit in a time slot at 9 o'clock, but i'm late because an accident on the road   
 -i'm sorry you have to wait, you have a delay of 2 hours  
 -please i have another appointment in another society today i hope you'll find a solution  
--i call my manager for ask him a solution, please wait)
- [...]   
--you can unload at quay 7, go straight on, turn right, it's the next to your right
-[...]
+-i call my manager for ask him a solution, please wait) [...]   
+-you can unload at quay 7, go straight on, turn right, it's the next to your right [...]  
 
 * Quay  
 -the quay is busy, is there any quay available, which quay is available
 
-2.Storage: the forklift operator is on phone with his manager
+2.Storage: the forklift operator is on phone with his manager  
 -hi chief I received some goods, where can I store them?  
--hi, what kinf of goods, how many pallets?
+-hi, what kinf of goods, how many pallets?  
 -I received three pallets of books, there are thirty packages of books  
--ok, you can store them in aisle four  
-[...]  
--Sorry to disturb you, there's no place, no roon in aisle 4, in any level
+-ok, you can store them in aisle four [...]  
+-Sorry to disturb you, there's no place, no roon in aisle 4, in any level  
 
-3.Shipping
+3.Shipping  
 -hi, have you prepare a shipment today, what is the date of shipping?  
 -hi, the date is the 02/02  
 -are the goods ready?  
@@ -96,4 +92,3 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 -yes i forgot to confirm the order ABC on time  
 -please can you confirm your order  
 -yes of course, thank's
--
