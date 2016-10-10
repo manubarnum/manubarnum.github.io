@@ -40,7 +40,7 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 ### Role Plays
 1. Receive a truck driver
 
-* Entrance  
+* Entrance
 -Hello sir  
 -hello it's for delivery  
 -ok, do you have documents, please?  
@@ -49,7 +49,7 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 -ok, thank's
 
 
-* Reception  
+* Reception
 -hi, I come for a delivery  
 -hello sir, what's your company and  your time slot, please  
 -my company is ..., i have an appointment at 9  
@@ -66,7 +66,7 @@ tags: [ 'currencies', 'calculation', 'role plays' ]
 -you can unload at quay 7, go straight on, turn right, it's the next to your right [...]  
 
 
-* Quay  
+* Quay
 -the quay is busy, is there any quay available, which quay is available
 
 2. Storage: the forklift operator is on phone with his manager
