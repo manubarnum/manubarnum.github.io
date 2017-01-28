@@ -10,8 +10,10 @@ On this post you can get a list of all the apps I use on my smarphone with a lin
 
 <ol>
   <li>Vocabulary</li>
-  <a href= "https://play.google.com/store/apps/details?id=com.vocabulary.app">Vocabulary.com</a>
-  <a href= "https://play.google.com/store/apps/details?id=com.memrise.android.memrisecompanion">Memrise</a>  
+  <ol>
+  <li><a href= "https://play.google.com/store/apps/details?id=com.vocabulary.app">Vocabulary.com</a></li>
+  <li><a href= "https://play.google.com/store/apps/details?id=com.memrise.android.memrisecompanion">Memrise</a></li>  
+  </ol>
   <li>Grammar</li>
   <li>Models</li>
   <li>All-in-one</li>
