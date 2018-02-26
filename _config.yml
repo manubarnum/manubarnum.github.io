@@ -113,7 +113,7 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/aftral.png"
     date: "Septembre 2017- en cours"
-    description: "Etudiant en logistique à l'AFTRAL"
+    description: "Formateur en logistique pour l'AFTRAL"
   - image: "/img/timeline/aftral.png"
     date: "Septembre 2016- Juin 2017"
     description: "Etudiant en logistique à l'AFTRAL"
