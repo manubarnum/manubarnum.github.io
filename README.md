@@ -75,10 +75,7 @@ One of the reasons { Personal } is real is the following OSS projects:
   4. [RRSSB](https://github.com/kni-labs/rrssb)
   5. [Timeline](https://github.com/kirbyt/timeline-jekyll-theme)
   6. [typed.js](https://github.com/mattboldt/typed.js/)
->>>>>>> refs/remotes/PanosSakkos/master
-=======
-Retrouver le code sur [la page github](https://github.com/PanosSakkos/personal-jekyll-theme) de son développeur!
->>>>>>> origin/master
+
 
 <div style="font-size:16px;margin:0 auto;width:300px">
     <a href="https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi">
