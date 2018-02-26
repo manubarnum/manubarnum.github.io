@@ -6,6 +6,7 @@
 "{ Personal } est un thème Jekyll réactif et libre, à propos de nous" :wink: 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Et retrouver le code sur [la page github](https://github.com/PanosSakkos/personal-jekyll-theme) de son développeur!
 =======
 You can watch it in action [here](https://le4ker.github.io/personal-jekyll-theme/)!
@@ -81,6 +82,9 @@ One of the reasons { Personal } is real is the following OSS projects:
   5. [Timeline](https://github.com/kirbyt/timeline-jekyll-theme)
   6. [typed.js](https://github.com/mattboldt/typed.js/)
 >>>>>>> refs/remotes/PanosSakkos/master
+=======
+Retrouver le code sur [la page github](https://github.com/PanosSakkos/personal-jekyll-theme) de son développeur!
+>>>>>>> origin/master
 
 <div style="font-size:16px;margin:0 auto;width:300px">
     <a href="https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi">
