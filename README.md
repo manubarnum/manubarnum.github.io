@@ -5,7 +5,7 @@
 
 "{ Personal } est un thème Jekyll réactif et libre, à propos de nous" :wink: 
 
-Et retrouver le code sur [la page github](https://github.com/PanosSakkos/personal-jekyll-theme) de son développeur!
+Retrouver le code sur [la page github](https://github.com/PanosSakkos/personal-jekyll-theme) de son développeur!
 
 <div style="font-size:16px;margin:0 auto;width:300px">
     <a href="https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi">
