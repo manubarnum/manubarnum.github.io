@@ -3,12 +3,6 @@
 ![license](https://img.shields.io/badge/license-MIT-blue.svg?link=https://github.com/dono-app/ios/blob/master/LICENSE)
 [![Join the chat at https://gitter.im/PanosSakkos/personal-jekyll-theme](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/panossakkos/personal-jekyll-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-"{ Personal } est un thème Jekyll réactif et libre, à propos de nous" :wink: 
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-Et retrouver le code sur [la page github](https://github.com/PanosSakkos/personal-jekyll-theme) de son développeur!
-=======
 You can watch it in action [here](https://le4ker.github.io/personal-jekyll-theme/)!
 
 <img src="https://github.com/le4ker/personal-jekyll-theme/raw/master/.github/personal-mobile.mov.gif" height="480">
