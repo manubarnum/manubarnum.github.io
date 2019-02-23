@@ -1,21 +1,19 @@
 ---
 layout: post
 section-type: post
-title: Initial setup
-category: tech
-tags: [ 'tutorial' ]
+title: Le développement de l'adolescent
+category: Mooc
+tags: [ 'adolescent' ]
 ---
 
-All features of { Personal } are controlled by setting values to variables that are defined in the
-\_config.yml file. Let's start with the initial variables that you have to set before
-serving your { Personal } website for the first time.
+Un premier post dans cette catégorie Mooc. Un outils 
 
 ### Essential variables
 
 <pre><code data-trim class="yaml">
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://manubarnum.github.io"
+url: "https://le4ker.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
