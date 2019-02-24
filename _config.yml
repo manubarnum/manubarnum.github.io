@@ -257,4 +257,4 @@ gems:
   - jekyll-paginate
   - jemoji
 
-theme: jekyll-theme-time-machine
+theme: jekyll-theme-architect
