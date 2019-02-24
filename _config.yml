@@ -187,6 +187,10 @@ timeline-img: "/img/timeline/defaut.png"
 
 email: "emmanuel@enkirche.fr"
 
+
+# Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
+pgp: False
+
 ################
 # Author Blurb #
 ################
