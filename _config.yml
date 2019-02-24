@@ -195,8 +195,8 @@ email: "emmanuel@enkirche.fr"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: ""
-author_blurb_image: ""
+# author_blurb: ""
+# author_blurb_image: ""
 
 ##################
 # Social Buttons #
