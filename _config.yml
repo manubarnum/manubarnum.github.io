@@ -5,30 +5,30 @@ url: "https://manubarnum.github.io"
 baseurl: "manubarnum.github.io"
 
 # Google tracking id
-google-tracking-id: "UA-XXXXXXXX-X"
+google-tracking-id: "UA-316171-11"
 
 #############
 # HTML Head #
 #############
 
-lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
-favicon: "/img/favicon.ico"
+lang: "fr"
+author: "Emmanuel Enkirche"
+title: "{ Emmanuel Enkirche }"
+description: "Blog et website de Emmanuel Enkirche. Quelques notes sur mon parcours professionnel en générale, mon évolution personnelle en particulier. Les opinions exprimées sont les miennes."
+keywords: "enkirche, emmanuel, logisticien, formateur, CV"
+favicon: "/img/point-favicon.ico"
 ################
 # Header layout#
 ################
-black-favicon: "/img/black-lab-glass.ico"
-background-img: "intro-bg.jpg"
+black-favicon: "/img/point-favicon.ico"
+background-img: "../img/fonddecran.jpg"
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
 quote: "Where’s your will to be weird?"
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/portrait.png"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
