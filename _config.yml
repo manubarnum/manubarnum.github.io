@@ -2,7 +2,7 @@
 
 # NB! Set your site's url, otherwise nothing will work
 url: "https://manubarnum.github.io"
-baseurl: ""
+baseurl: /
 
 # Google tracking id
 google-tracking-id: "UA-XXXXXXXX-X"
