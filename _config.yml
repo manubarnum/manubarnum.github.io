@@ -70,10 +70,10 @@ cusdis-app-id: "f36963e9-9c7a-40cf-bb9f-39da89587cb7"
 events:
   - image: "/img/timeline/spiphoto.jpg"
     date: "Octobre 2013 - en cours"
-    description: "Trésorier associatif pour le club photo SPIPhoto"
+    description: 'Trésorier associatif pour le club photo SPIPhoto— <a href="https://www.spiphoto.fr" target="_blank" rel="noopener">voir le site</a>'
   - image: "/img/timeline/aftral.png"
     date: "Septembre 2017 - en cours"
-    description: "Formateur en logistique pour l'AFTRAL"
+    description: 'Formateur en logistique pour l''AFTRAL — <a href="https://www.aftral.com" target="_blank" rel="noopener">voir le site</a>'
   - image: "/img/timeline/aftral.png"
     date: "Septembre 2016 - Juin 2017"
     description: "Etudiant en logistique à l'AFTRAL"
