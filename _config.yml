@@ -68,7 +68,7 @@ cusdis-app-id: "f36963e9-9c7a-40cf-bb9f-39da89587cb7"
 ############
 
 events:
-  - image: "/img/timeline/spiphoto.png"
+  - image: "/img/timeline/spiphoto.jpg"
     date: "Octobre 2013 - en cours"
     description: "Trésorier associatif pour le club photo SPIPhoto"
   - image: "/img/timeline/aftral.png"
