@@ -138,11 +138,9 @@ email: "emmanuel@enkirche.fr"
 
 author_blurb_image: "/img/author.png"
 author_blurb:
-  "Après un Service Long en Outre-Mer au Sénégal, j'ai construit mon parcours professionnel autour de la logistique et de la conduite, avant de me tourner vers la formation.
-  J'ai d'abord occupé plusieurs postes d'opérateur et d'approvisionneur cariste dans l'industrie (Autoliv, Paulstra, Imerys, SIKA), en passant aussi par la conduite (chauffeur VL, chauffeur de bus) et le commerce. Une formation en bureautique et informatique à l'AFPA, puis en analyse-programmation au CESI, m'a permis d'élargir mes compétences techniques.
-  Pendant plus de quatre ans, j'ai été employé logistique pour la SAS Cocagne, une expérience qui m'a donné une vision complète des enjeux terrain du métier. En 2016, j'ai choisi de me former en tant qu'étudiant en logistique à l'AFTRAL — un cursus qui a naturellement débouché sur mon poste actuel de formateur en logistique, que j'occupe depuis 2017.
-  En parallèle de mon activité professionnelle, je m'investis dans la vie associative en tant que trésorier d'un club photo, et je consacre une partie de mon temps libre au développement de solutions pour mettre en valeur les photos du Pays de Bray, où je vis — une manière de faire se rejoindre ma sensibilité technique et mon attachement à ce territoire.
-  Aujourd'hui, je transmets à mon tour les compétences que j'ai acquises sur le terrain, avec la conviction qu'une bonne formation professionnelle se construit sur une expérience réelle et diversifiée du métier."
+  "Formateur en logistique depuis 2017 après un parcours varié dans l'industrie (cariste, approvisionneur) et la conduite, complété par une formation en informatique. Passé par l'AFTRAL comme étudiant avant d'y devenir formateur.
+
+  En dehors du travail, je suis trésorier d'un club photo et je développe des solutions pour mettre en valeur les photos du Pays de Bray, où je vis."
 
 ##################
 # Social Buttons #
@@ -161,7 +159,7 @@ social:
 # Sections shown in the index page
 pages_list:
   About: "about"
-  Blog: "latest-post"
+  #Blog: "latest-post"
   Timeline: "timeline"
   Contact: "contact"
 
