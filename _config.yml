@@ -41,7 +41,7 @@ quote: "Bienvenue sur mon CV en ligne ! Quelques notes sur mon parcours professi
 # You can create the email hash by using an online tool like 'http://www.md5hashgenerator.com/'
 # just enter your email and it will generate the hash.
 
-me-img: "https://www.gravatar.com/avatar/email_hash?s=4e87da20bf51e9af29c742cef807ad80"
+me-img: "https://www.gravatar.com/avatar/4e87da20bf51e9af29c742cef807ad80"
 
 #######
 # Blog #
@@ -127,7 +127,7 @@ timeline-img: "/img/timeline/defaut.png"
 # Contact #
 ###########
 
-email: "emmanuel@enkirche.fr"
+email: "alt.r4-5oi0upwb@yopmail.com"
 
 ################
 # Author Blurb #
