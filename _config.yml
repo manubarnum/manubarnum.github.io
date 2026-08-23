@@ -5,7 +5,7 @@ url: "https://manubarnum.github.io"
 baseurl: ""
 
 # Google tracking id
-# google-tracking-id: "UA-316171-11"
+google-tracking-id: "UA-316171-11"
 
 #############
 # HTML Head #
@@ -17,6 +17,7 @@ title: "{ Emmanuel Enkirche }"
 description: "Blog et website de Emmanuel Enkirche. Quelques notes sur mon parcours professionnel en générale, mon évolution personnelle en particulier. Les opinions exprimées sont les miennes."
 keywords: "enkirche, emmanuel, logisticien, formateur, CV"
 favicon: "/img/point-favicon.ico"
+
 ################
 # Header layout#
 ################
@@ -27,7 +28,7 @@ background-img: "../img/fonddecran.jpg"
 # Dynamic Text on the Header #
 ##############################
 
-quote: "Bon à rien, prêt à tout"
+quote: "Bienvenue sur mon CV en ligne ! Quelques notes sur mon parcours professionnel."
 me-img: "/img/portrait.png"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
@@ -60,26 +61,25 @@ pocket-share: True
 vkontakte-share: True
 
 # NB! Create an account in Cusdis and update the app id, otherwise the comments won't work
-cusdis-app-id: #"d34a3968-9be5-46d7-98f1-c4263cd1a220"
+cusdis-app-id: "d34a3968-9be5-46d7-98f1-c4263cd1a220"
 
 ############
 # Timeline #
 ############
 
-
 events:
   - image: "/img/timeline/aftral.png"
-    date: "Septembre 2017- en cours"
+    date: "Septembre 2017 - en cours"
     description: "Formateur en logistique pour l'AFTRAL"
   - image: "/img/timeline/aftral.png"
-    date: "Septembre 2016- Juin 2017"
+    date: "Septembre 2016 - Juin 2017"
     description: "Etudiant en logistique à l'AFTRAL"
   - image: "/img/timeline/cocagne.png"
     date: "Mars 2013 - Août 2017"
     description: "Employé logistique pour la SAS Cocagne"
   - image: "/img/timeline/sika.png"
     date: "Janvier 2012 - Octobre 2012"
-    description: "Opérateur cariste pour SIKA "
+    description: "Opérateur cariste pour SIKA"
   - image: "/img/timeline/imerys.png"
     date: "Novembre 2011 - Decembre 2011"
     description: "Approvisionneur Cariste pour Imerys"
@@ -97,7 +97,7 @@ events:
     description: "Assistant en Bureautique et Informatique pour l'AFPA"
   - image: "/img/timeline/cesi.png"
     date: "Septembre 2004 - Juin 2005"
-    description: "Etudiant Analyse Programmation au CESI"  
+    description: "Etudiant Analyse Programmation au CESI"
   - image: "/img/timeline/dumonchel.png"
     date: "Février - Avril 2004"
     description: "Chauffeur VL pour Dumonchel"
@@ -106,7 +106,7 @@ events:
     description: "Opérateur de production pour Autoliv"
   - image: "/img/timeline/superu.png"
     date: "2000"
-    description: "Employé commercial pour Super U"  
+    description: "Employé commercial pour Super U"
   - image: "/img/timeline/grisel.png"
     date: "Septembre 1995 - Décembre 1999"
     description: "Chauffeur de bus pour Grisel"
@@ -115,13 +115,16 @@ events:
     description: "Volontaire Service Long Outre-Mer au Sénégal"
 
 # First image of the Timeline
+# ATTENTION : dans l'ancien backup le fichier s'appelait "defaut.png" (sans "l"),
+# le thème actuel attend "default.png" par défaut. Renommez le fichier restauré
+# dans img/timeline/, ou changez ce chemin pour qu'il pointe vers "defaut.png".
 timeline-img: "/img/timeline/default.png"
 
 ###########
 # Contact #
 ###########
 
-email: "emmanuel@enkirche.fr
+email: "emmanuel@enkirche.fr"
 
 ################
 # Author Blurb #
@@ -144,11 +147,11 @@ author_blurb:
 ##################
 
 social:
-  - title: "linkedin"
+  - icon: "linkedin-in"
     url: "https://linkedin.com/in/emmanuelenkirche"
-  - title: "github"
+  - icon: "github"
     url: "https://github.com/manubarnum"
-  - title: "rss"
+  - icon: "rss"
     url: "/feed.xml"
 
 # NB! Tread carefully if you want to change the variables below this point!
