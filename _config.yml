@@ -27,7 +27,7 @@ background-img: "../img/fonddecran.jpg"
 # Dynamic Text on the Header #
 ##############################
 
-quote: "Where’s your will to be weird?"
+quote: "Bon à rien, prêt à tout"
 me-img: "/img/portrait.png"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
@@ -60,19 +60,59 @@ pocket-share: True
 vkontakte-share: True
 
 # NB! Create an account in Cusdis and update the app id, otherwise the comments won't work
-cusdis-app-id: "d34a3968-9be5-46d7-98f1-c4263cd1a220"
+cusdis-app-id: #"d34a3968-9be5-46d7-98f1-c4263cd1a220"
 
 ############
 # Timeline #
 ############
 
+
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/timeline/aftral.png"
+    date: "Septembre 2017- en cours"
+    description: "Formateur en logistique pour l'AFTRAL"
+  - image: "/img/timeline/aftral.png"
+    date: "Septembre 2016- Juin 2017"
+    description: "Etudiant en logistique à l'AFTRAL"
+  - image: "/img/timeline/cocagne.png"
+    date: "Mars 2013 - Août 2017"
+    description: "Employé logistique pour la SAS Cocagne"
+  - image: "/img/timeline/sika.png"
+    date: "Janvier 2012 - Octobre 2012"
+    description: "Opérateur cariste pour SIKA "
+  - image: "/img/timeline/imerys.png"
+    date: "Novembre 2011 - Decembre 2011"
+    description: "Approvisionneur Cariste pour Imerys"
+  - image: "/img/timeline/autoliv.png"
+    date: "Mars 2010 - Octobre 2011"
+    description: "Approvisionneur Cariste pour Autoliv"
+  - image: "/img/timeline/paulstra.png"
+    date: "Avril - Juillet 2009"
+    description: "Approvisionneur Cariste pour Paulstra"
+  - image: "/img/timeline/autoliv.png"
+    date: "Janvier 2007 - Juillet 2008"
+    description: "Approvisionneur Cariste pour Autoliv"
+  - image: "/img/timeline/afpa.png"
+    date: "Juin 2005 - Juin 2006"
+    description: "Assistant en Bureautique et Informatique pour l'AFPA"
+  - image: "/img/timeline/cesi.png"
+    date: "Septembre 2004 - Juin 2005"
+    description: "Etudiant Analyse Programmation au CESI"  
+  - image: "/img/timeline/dumonchel.png"
+    date: "Février - Avril 2004"
+    description: "Chauffeur VL pour Dumonchel"
+  - image: "/img/timeline/autoliv.png"
+    date: "Janvier 2001 - Juillet 2003"
+    description: "Opérateur de production pour Autoliv"
+  - image: "/img/timeline/superu.png"
+    date: "2000"
+    description: "Employé commercial pour Super U"  
+  - image: "/img/timeline/grisel.png"
+    date: "Septembre 1995 - Décembre 1999"
+    description: "Chauffeur de bus pour Grisel"
+  - image: "/img/timeline/23bima.png"
+    date: "Avril 1993 - Mars 1995"
+    description: "Volontaire Service Long Outre-Mer au Sénégal"
 
 # First image of the Timeline
 timeline-img: "/img/timeline/default.png"
@@ -81,7 +121,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "emmanuel@enkirche.fr
 
 ################
 # Author Blurb #
@@ -104,14 +144,12 @@ author_blurb:
 ##################
 
 social:
-  - icon: "github"
-    url: "https://github.com/le4ker/personal-jekyll-theme"
-  - icon: "linkedin-in"
-    url: "https://www.linkedin.com"
-  - icon: "x-twitter"
-    url: "https://twitter.com/"
-  - icon: "rss"
-    url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
+  - title: "linkedin"
+    url: "https://linkedin.com/in/emmanuelenkirche"
+  - title: "github"
+    url: "https://github.com/manubarnum"
+  - title: "rss"
+    url: "/feed.xml"
 
 # NB! Tread carefully if you want to change the variables below this point!
 
