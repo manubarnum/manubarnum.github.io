@@ -169,6 +169,7 @@ syntax_theme: everforest
 exclude:
   - LICENSE
   - README.md
+  - CLAUDE.md
   - CONTRIBUTING
   - CONTRIBUTORS
   - scripts
