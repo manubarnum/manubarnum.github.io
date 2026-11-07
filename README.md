@@ -1,179 +1,49 @@
-# { Personal } Jekyll Theme
+# enkirche.fr
 
-[![Build Status](https://github.com/le4ker/personal-jekyll-theme/actions/workflows/release.yml/badge.svg)](https://github.com/le4ker/personal-jekyll-theme/actions/workflows/release.yml)
-[![GitHub license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-[![Ruby](https://img.shields.io/badge/ruby-3.1.1-red.svg)](https://www.ruby-lang.org/)
-[![Jekyll](https://img.shields.io/badge/jekyll-theme-green.svg)](https://jekyllrb.com/)
+Site personnel et CV en ligne d'Emmanuel Enkirche, publié sur GitHub Pages à
+l'adresse [www.enkirche.fr](https://www.enkirche.fr).
 
-**{ Personal }** is a free, responsive Jekyll theme with a minimal aesthetic —
-perfect for your personal blog and portfolio. Tell your story with a beautiful
-timeline and share your thoughts through an elegant blog.
+## Lancer le site en local
 
-🔗 **[Live Demo](https://le4ker.github.io/personal-jekyll-theme/)**
-
-<p align="center">
-  <img src=".github/images/demo.gif" alt="Theme Demo" width="600" />
-</p>
-
----
-
-## 🚀 Quick Start
-
-### Deploy on GitHub Pages (Free)
-
-1. **Fork** this repository
-2. **Rename** the forked repository to `yourusername.github.io`
-3. **Update** `_config.yml`:
-   ```yaml
-   url: "https://yourusername.github.io"
-   baseurl: ""
-   ```
-4. **Commit** your changes — once the GitHub Action succeeds, your site will be
-   live at `https://yourusername.github.io`
-
----
-
-## 💻 Local Development
-
-### Option 1: Docker (Recommended)
-
-No need to install Ruby or dependencies locally:
+Avec Docker (aucune installation Ruby nécessaire) :
 
 ```shell
 docker-compose up --build
 ```
 
-The site will be available at `http://localhost:4000`.
-
-### Option 2: Native Ruby
-
-**Prerequisites:**
-
-- Ruby 3.1.1 (use [rbenv](https://github.com/rbenv/rbenv) or
-  [rvm](https://rvm.io/) for version management)
-- Bundler
-
-**Installation:**
+Ou avec Ruby 3.1 :
 
 ```shell
-# Install dependencies
 bundle install
-
-# Start the development server with live reload
 bundle exec jekyll serve --watch --livereload
 ```
 
-The site will be available at `http://localhost:4000`.
+Le site est alors disponible sur `http://localhost:4000`.
 
----
+## Modifier le contenu
 
-## ⚙️ Configuration
+Presque tout se règle dans `_config.yml` :
 
-All site configuration is managed through `_config.yml`. Key settings include:
+- `quote`, `me-img` : texte et portrait de l'accueil ;
+- `author_blurb` : présentation (section « À propos » et bas des articles) ;
+- `events` : parcours professionnel, du plus récent au plus ancien ;
+- `social` : liens LinkedIn, GitHub, RSS ;
+- `email` : adresse affichée dans la section « Contact ».
 
-| Setting          | Description                        |
-| ---------------- | ---------------------------------- |
-| `url`            | Your site's URL                    |
-| `title`          | Site title displayed in the header |
-| `author`         | Your name                          |
-| `description`    | Site description for SEO           |
-| `me-img`         | Your profile image                 |
-| `background-img` | Header background image            |
-| `events`         | Timeline entries                   |
-| `social`         | Social media links                 |
-
----
-
-## ✨ Features
-
-### Design
-
-- 🎨 Modern, minimal aesthetic with white-on-black text
-- 🌗 Dark mode with a theme toggle button — preference saved in localStorage
-- 📱 Fully responsive — looks great on mobile, tablet, and desktop
-- 🖼️ Customizable header with dynamic text and profile image
-
-### Timeline
-
-- 📅 Tell your story with a sleek timeline
-- 🖼️ Add images, dates, and descriptions for each milestone
-
-### Blogging
-
-- ✍️ Full-featured blog with archive page
-- 🏷️ Hashtags and categories support
-- 💬 Comments integration (Cusdis) with dark/light theme sync
-- 🔗 Social share buttons (X, Facebook, LinkedIn, Reddit, Hacker News, and more)
-- 🎨 Syntax highlighting for code blocks
-- 📊 Mermaid diagram support
-- 📡 RSS feed
-
-### SEO & Analytics
-
-- 📈 Google Analytics integration
-- 🗺️ Automatic sitemap generation
-- 🔍 SEO-friendly meta tags
-
-### Privacy & Security
-
-- 🍪 Cookie consent banner
-- 🛡️ Email harvesting protection
-
----
-
-## 📚 Documentation
-
-Detailed documentation is available as blog posts on the
-[demo site](https://le4ker.github.io/personal-jekyll-theme/blog/).
-
----
-
-## 🤝 Contributing
-
-This project uses [Conventional Commits](https://www.conventionalcommits.org/)
-to generate release notes automatically.
-
-### Setup Git Hooks
-
-To enforce conventional commits locally, run:
+Pour écrire un article :
 
 ```shell
-sh .githooks/setup.sh
+ruby bin/new_post.rb mon-article
+ruby bin/generate_tags.rb && ruby bin/generate_categories.rb
 ```
 
-This will configure git to validate your commit messages before each commit.
+## Publication
 
-### Commit Message Format
+Chaque push sur la branche `master` reconstruit et publie le site
+automatiquement (workflow `.github/workflows/jekyll.yml`).
 
-```
-<type>[optional scope]: <description>
-```
+## Crédits
 
-**Allowed types:** `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`,
-`build`, `ci`, `chore`, `revert`
-
-**Examples:**
-
-```
-feat: add dark mode support
-fix(comments): resolve Cusdis loading issue
-docs: update installation instructions
-```
-
----
-
-## 🙏 Credits
-
-This theme is a fork of
-[Timeline](https://github.com/kirbyt/timeline-jekyll-theme), which is a mashup
-of:
-
-- [Grayscale by Start Bootstrap](https://github.com/IronSummitMedia/startbootstrap-grayscale)
-- [Agency Jekyll Theme](https://github.com/y7kim/agency-jekyll-theme)
-
----
-
-## 📄 License
-
-This project is licensed under the **Apache License 2.0** — see the
-[LICENSE](LICENSE) file for details.
+Basé sur le thème Jekyll
+[{ Personal }](https://github.com/le4ker/personal-jekyll-theme) de Panos Sakkos,
+sous licence Apache 2.0 (voir [LICENSE](LICENSE)).

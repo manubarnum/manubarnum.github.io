@@ -7,8 +7,8 @@ Ce fichier guide Claude (et tout contributeur) lorsqu'il travaille dans ce dép�
 Site personnel / CV en ligne d'Emmanuel Enkirche, publié sur GitHub Pages et servi
 sous le domaine personnalisé `www.enkirche.fr` (fichier `CNAME`).
 
-C'est un fork du thème Jekyll **{ Personal }** (le4ker/personal-jekyll-theme, v10.x).
-Le `README.md` et le `CHANGELOG.md` sont ceux du thème amont, pas du site.
+C'est un fork du thème Jekyll **{ Personal }** (le4ker/personal-jekyll-theme, v10.x),
+traduit en français et débarrassé de ses contenus de démonstration.
 
 Langue du site : **français** (`lang: "fr"`). Tout contenu visible doit être rédigé
 en français.
@@ -48,9 +48,9 @@ sans erreur, puis à relire la page générée.
 | ---------------------------------------------------- | --------------------------------------------- |
 | Titre, description, citation d'accueil, portrait     | `_config.yml` (`title`, `description`, `quote`, `me-img`) |
 | Parcours professionnel (frise chronologique)         | `_config.yml` → `events` (du plus récent au plus ancien) |
-| Texte de présentation sous les articles et « About » | `_config.yml` → `author_blurb`                |
+| Texte de présentation (« À propos », bas d'article) | `_config.yml` → `author_blurb`                |
 | Réseaux sociaux                                      | `_config.yml` → `social`                      |
-| Sections affichées sur l'accueil                     | `_config.yml` → `pages_list`                  |
+| Sections affichées sur l'accueil et libellés du menu | `_config.yml` → `pages_list`                  |
 | Gabarits HTML des sections                           | `_includes/` (about, timeline, contact…)      |
 | Mise en page                                         | `_layouts/`                                   |
 | Styles, thème clair/sombre                           | `_sass/`, `css/grayscale.scss`                |
@@ -75,27 +75,26 @@ Chaque catégorie et chaque tag doit avoir sa page dans `categories/` et `tags/`
 
 ## Déploiement et branches
 
-- Branche par défaut : **`master`**. Un push sur `master` déclenche
+- Branche unique : **`master`**. Un push sur `master` déclenche
   `.github/workflows/jekyll.yml`, qui construit et **publie immédiatement** le site.
-- `ci.yml` (htmlproofer) et `release.yml` (semantic-release) ciblent la branche
-  `main`, héritée du thème : ils ne se déclenchent donc jamais ici.
+- `ci.yml` construit le site et vérifie les liens internes (htmlproofer) sur les
+  pull requests vers `master`.
 - Messages de commit au format Conventional Commits (`feat:`, `fix:`, `docs:`…).
   Le hook se configure avec `sh .githooks/setup.sh`.
 
-## Points d'attention connus
+## Points d'attention
 
 - Tout fichier sans front matter non listé dans `exclude` (`_config.yml`) est
   copié tel quel dans le site publié. Ajouter à `exclude` tout nouveau fichier
   interne (notes, docs, scripts).
-- `url` vaut `https://manubarnum.github.io` alors que le site est servi sur
-  `www.enkirche.fr` : à garder en tête pour les URL absolues, le flux RSS et le
-  sitemap.
-- `_posts/` contient encore les articles tutoriels du thème (2015, en anglais).
-- `_includes/about.html` affiche encore les boutons « star / fork » du dépôt du
-  thème et une phrase en anglais.
-- `timeline-img` pointe vers `img/timeline/defaut.png` ; `default.png` existe
-  aussi. Ne pas supprimer l'un sans vérifier `_config.yml`.
+- La clé `À propos` de `pages_list` est aussi lue par `_includes/header.html`
+  (lien du portrait) : renommer les deux ensemble.
+- `_posts/` est vide pour l'instant ; la section Blog est masquée dans
+  `pages_list`. Les dossiers `tags/` et `categories/` ne contiennent qu'un
+  `.gitkeep`, ignoré par les scripts `bin/`.
+- `background-img` est défini dans `_config.yml` mais le thème actuel ne
+  l'utilise pas : l'accueil a un fond uni.
 - L'adresse `email` du contact est une adresse jetable : la changer seulement à
   la demande du propriétaire.
-- Les images de démo du thème (`*tocat*`, `intro-bg.jpg`) sont inutilisées par le
-  contenu actuel, mais vérifier les gabarits avant de les retirer.
+- Conserver les en-têtes de copyright du thème dans `_includes/` et le fichier
+  `LICENSE` (Apache 2.0).

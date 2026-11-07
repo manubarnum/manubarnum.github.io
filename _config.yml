@@ -1,7 +1,7 @@
 # Site settings
 
 # NB! Set your site's url, otherwise nothing will work
-url: "https://manubarnum.github.io"
+url: "https://www.enkirche.fr"
 baseurl: ""
 
 # Google tracking id
@@ -14,14 +14,30 @@ baseurl: ""
 lang: "fr"
 author: "Emmanuel Enkirche"
 title: "{ Emmanuel Enkirche }"
-description: "Blog et website de Emmanuel Enkirche. Quelques notes sur mon parcours professionnel en générale, mon évolution personnelle en particulier. Les opinions exprimées sont les miennes."
+description: "Blog et site web d'Emmanuel Enkirche. Quelques notes sur mon parcours professionnel en général, mon évolution personnelle en particulier. Les opinions exprimées sont les miennes."
 keywords: "enkirche, emmanuel, logisticien, formateur, CV"
 favicon: "/img/point-favicon.ico"
+
+# Icônes de l'application web (manifest.json)
+icon-36p: "img/web-app/point-36p.png"
+icon-48p: "img/web-app/point-48p.png"
+icon-72p: "img/web-app/point-72p.png"
+icon-96p: "img/web-app/point-96p.png"
+icon-144p: "img/web-app/point-144p.png"
+icon-192p: "img/web-app/point-192p.png"
 
 ################
 # Header layout#
 ################
 black-favicon: "/img/point-favicon.ico"
+
+# Icônes de l'application web (manifest.json)
+icon-36p: "img/web-app/point-36p.png"
+icon-48p: "img/web-app/point-48p.png"
+icon-72p: "img/web-app/point-72p.png"
+icon-96p: "img/web-app/point-96p.png"
+icon-144p: "img/web-app/point-144p.png"
+icon-192p: "img/web-app/point-192p.png"
 background-img: "../img/fonddecran.jpg"
 
 ##############################
@@ -70,13 +86,13 @@ cusdis-app-id: "f36963e9-9c7a-40cf-bb9f-39da89587cb7"
 events:
   - image: "/img/timeline/spiphoto.jpg"
     date: "Octobre 2013 - en cours"
-    description: 'Trésorier associatif pour le club photo SPIPhoto— <a href="https://www.spiphoto.fr" target="_blank" rel="noopener">voir le site</a>'
+    description: 'Trésorier associatif pour le club photo SPIPhoto — <a href="https://www.spiphoto.fr" target="_blank" rel="noopener">voir le site</a>'
   - image: "/img/timeline/aftral.png"
     date: "Septembre 2017 - en cours"
     description: 'Formateur en logistique pour l''AFTRAL — <a href="https://www.aftral.com" target="_blank" rel="noopener">voir le site</a>'
   - image: "/img/timeline/aftral.png"
     date: "Septembre 2016 - Juin 2017"
-    description: "Etudiant en logistique à l'AFTRAL"
+    description: "Étudiant en logistique à l'AFTRAL"
   - image: "/img/timeline/cocagne.png"
     date: "Mars 2013 - Août 2017"
     description: "Employé logistique pour la SAS Cocagne"
@@ -84,7 +100,7 @@ events:
     date: "Janvier 2012 - Octobre 2012"
     description: "Opérateur cariste pour SIKA"
   - image: "/img/timeline/imerys.png"
-    date: "Novembre 2011 - Decembre 2011"
+    date: "Novembre 2011 - Décembre 2011"
     description: "Approvisionneur Cariste pour Imerys"
   - image: "/img/timeline/autoliv.png"
     date: "Mars 2010 - Octobre 2011"
@@ -100,7 +116,7 @@ events:
     description: "Assistant en Bureautique et Informatique pour l'AFPA"
   - image: "/img/timeline/cesi.png"
     date: "Septembre 2004 - Juin 2005"
-    description: "Etudiant Analyse Programmation au CESI"
+    description: "Étudiant Analyse Programmation au CESI"
   - image: "/img/timeline/dumonchel.png"
     date: "Février - Avril 2004"
     description: "Chauffeur VL pour Dumonchel"
@@ -117,10 +133,7 @@ events:
     date: "Avril 1993 - Mars 1995"
     description: "Volontaire Service Long Outre-Mer au Sénégal"
 
-# First image of the Timeline
-# ATTENTION : dans l'ancien backup le fichier s'appelait "defaut.png" (sans "l"),
-# le thème actuel attend "default.png" par défaut. Renommez le fichier restauré
-# dans img/timeline/, ou changez ce chemin pour qu'il pointe vers "defaut.png".
+# Image affichée en bas de la frise chronologique
 timeline-img: "/img/timeline/defaut.png"
 
 ###########
@@ -136,7 +149,7 @@ email: "alt.r4-5oi0upwb@yopmail.com"
 # The author blurb goes underneath blog posts.
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
-author_blurb_image: "/img/author.png"
+author_blurb_image: "/img/portrait.png"
 author_blurb:
   "Formateur en logistique depuis 2017 après un parcours varié dans l'industrie (cariste, approvisionneur) et la conduite, complété par une formation en informatique. Passé par l'AFTRAL comme étudiant avant d'y devenir formateur.
 
@@ -158,9 +171,9 @@ social:
 
 # Sections shown in the index page
 pages_list:
-  About: "about"
+  À propos: "about"
   #Blog: "latest-post"
-  Timeline: "timeline"
+  Parcours: "timeline"
   Contact: "contact"
 
 syntax_theme: everforest
@@ -175,6 +188,9 @@ exclude:
   - scripts
   - Dockerfile
   - docker-compose.yml
+  - Gemfile
+  - Gemfile.lock
+  - bin
 # Pagination path
 paginate_path: "blog/page:num/"
 # Enable minification SASS

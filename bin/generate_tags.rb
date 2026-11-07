@@ -8,7 +8,7 @@ POSTS_DIR = '_posts'
 TAGS_DIR = 'tags'
 
 Dir.foreach(POSTS_DIR) do |post|
-  next if ['.', '..', '.DS_Store'].include?(post)
+  next if ['.', '..', '.DS_Store', '.gitkeep'].include?(post)
 
   post_yaml = YAML.load_file("#{POSTS_DIR}/#{post}")
   unless post_yaml['tags']&.nil?
